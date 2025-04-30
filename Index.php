@@ -36,7 +36,7 @@ if (isset($_POST["reset"])){
         <?php 
             if (isset($_POST["keyword"])){
         ?>
-        <p>Sekarang menunjukkan hasil pencarian <?= $_POST["keyword"]?></p>
+        <p>Sekarang menunjukkan hasil pencarian '<?= $_POST["keyword"]?>'</p>
         <?php } else{
             echo"<br>";
         }?>
